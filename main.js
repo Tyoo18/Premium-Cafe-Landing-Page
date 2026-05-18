@@ -193,6 +193,22 @@ function closeAlert() {
   modal.classList.add("opacity-0", "pointer-events-none");
 }
 
+// --- Navigation click auto-scroll offset fix (for precise landing views) ---
+document.querySelectorAll("nav a").forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    const targetId = this.getAttribute("href");
+    if (targetId === "#") return;
+    const targetElement = document.querySelector(targetId);
+    if (targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop,
+        behavior: "smooth",
+      });
+    }
+  });
+});
+
 function simulateMapRoute() {
   const locationName =
     currentMapLocation === "kyoto"
