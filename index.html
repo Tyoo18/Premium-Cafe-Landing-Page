@@ -48,9 +48,9 @@
     <!-- Grain Ambient Overlay -->
     <div class="grain-overlay"></div>
 
-    <!-- Ambient Sound Player & Theme Switcher Bar (Top Right Float) -->
+    <!-- Ambient Sound Player & Theme Switcher Bar (Repositioned to Bottom Right Persistent Dock) -->
     <div
-      class="fixed top-1 right-6 z-50 flex items-center gap-3 md:gap-4 bg-white/10 dark:bg-black/20 backdrop-blur-md py-2 px-3 md:px-4 rounded-full border border-black/10 dark:border-white/10 shadow-sm"
+      class="fixed bottom-6 right-6 z-50 flex items-center gap-3 md:gap-4 bg-white/90 dark:bg-neutral-900/90 backdrop-blur-md py-2.5 px-4 rounded-full border border-black/10 dark:border-white/10 shadow-lg transition-colors duration-1000"
     >
       <!-- Ambient Sound Button -->
       <button
@@ -70,13 +70,13 @@
           ></span>
         </div>
         <span
-          class="text-[10px] tracking-[0.15em] uppercase text-neutral-600 dark:text-neutral-300 font-medium select-none"
+          class="text-[10px] tracking-[0.15em] uppercase text-neutral-600 dark:text-neutral-300 font-semibold select-none"
           id="ambient-status"
           >Sound Off</span
         >
       </button>
 
-      <div class="h-4 w-[1px] bg-black/10 dark:bg-white/20"></div>
+      <div class="h-4 w-[1px] bg-black/15 dark:bg-white/20"></div>
 
       <!-- Theme / Vibe Switcher -->
       <button
@@ -87,7 +87,7 @@
       >
         <span
           id="vibe-label"
-          class="text-[10px] tracking-[0.15em] uppercase text-neutral-600 dark:text-neutral-300 font-medium select-none"
+          class="text-[10px] tracking-[0.15em] uppercase text-neutral-600 dark:text-neutral-300 font-semibold select-none"
           >Golden Hour</span
         >
         <svg
@@ -115,7 +115,7 @@
       </button>
     </div>
 
-    <!-- Header Navigation (Styled for maximum readability against background imagery) -->
+    <!-- Header Navigation (Now fully unblocked and legible) -->
     <header
       class="absolute top-0 left-0 w-full z-40 py-8 px-6 md:px-12 flex justify-between items-center bg-transparent"
     >
@@ -771,7 +771,7 @@
 
     <!-- Elegant Curated Footer -->
     <footer
-      class="vibe-transition py-16 bg-[#1A110D] text-cream/70 dark:bg-midnight text-xs tracking-widest uppercase transition-colors duration-1000 border-t border-white/5"
+      class="vibe-transition py-16 bg-[#1A110D] text-cream/70 dark:bg-midnight text-xs tracking-widest uppercase transition-colors duration-1000 border-t border-white/5 pb-28 md:pb-16"
     >
       <div
         class="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-8"
