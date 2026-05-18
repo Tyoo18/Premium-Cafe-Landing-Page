@@ -14,7 +14,7 @@ Abandoning the sterile layouts, generic gradients, and cookie-cutter blocks typi
 Stunning hero layouts, fully layered-powered views fluidly deployed atmospheric color ways to match the prestige of Slow Living philosophy. No compromise.
 
 ### Midnight Tone-Dark Mode(s)
-Deep warm aftertones, ink-blotted mid-lightig, and dusty terracotta accents.
+Deep warm aftertones, ink-blotted midnight, and dusty terracotta accents.
 
 ### Premium Raw Audio Architecture
 To escape the structural monotones, Kinto features a custom-built audio-playback dock using the Web Audio API. It generates a scrolling waveform via Canvas animation. Think Spotify meets Brutalist gallery-hall editorial visual craft.
@@ -36,8 +36,8 @@ Parsing Togetherness Week Protocol (like last's current clock) to display a cust
 ## Design Tokens & Palette
 
 ### Typography
-- **Heading & Accents:** _Oranienbaum Serif &Cocn_ — An elegantly high-contrast serif font family whimsical depth, reintersion of hand-lings
-- **Body & Utilizer Nav:** _IBM Plex Sans Sans_ — A classic, ultra-modern-geometric sans-serif prioritizing high-legibility and impeccable tracking.
+- **Heading & Accents:** Cormorant Garamond — An elegant, high-contrast serif that brings editorial depth, reminiscent of boutique luxury publications.
+- **Body & Utilizer Nav:** A clean, ultra-modern geometric sans-serif prioritizing high legibility and spacious tracking.
 
 ### Color Tokens
 
