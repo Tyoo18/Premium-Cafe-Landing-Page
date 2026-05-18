@@ -41,13 +41,13 @@ Parsing Togetherness Week Protocol (like last's current clock) to display a cust
 
 ### Color Tokens
 
-| Token | Hex Value | Detail |
-|-------|-----------|--------|
-| Classic | #F4F2EE | Warm-white-tinted/Cool-Cream |
-| Gunmetal | #3A3A3D | Dark-contrast-black, rich, and shadow |
-| Gray-Grey | #F5F5F5 | Form-neutral |
-| Terracotta | #D15C56 | Raw-baked-Japanese-red-Ornaments |
-| Midnight | — | Deep-pacific-and-Ebony-c-kictions |
+| Token | Hex Value | Mood |
+|-------|-----------|------|
+| Cream | #FAF6F0 | Warm sun-bleached linen |
+| Espresso | #1A110D | Dark roasted beans, soil, and shadow |
+| Cozy Grey | #F3EDE2 | Soft limestone and concrete dust |
+| Terracotta | #C27D5F | Sun-baked Japanese earthenware |
+| Midnight | #0D0D0C | Raw obsidian and twilight shadows |
 
 ## Tech Stack & Philosophy
 
